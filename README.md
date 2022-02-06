@@ -1,5 +1,8 @@
 # Clone PlayStation
 
+![Clone PlayStation - Print](https://user-images.githubusercontent.com/94722696/152705208-b44ad9c4-9360-4640-85d5-789f751ec785.png)
+
+
 ## Olá a todos!
 
 Antes de mais nada, vou me apresentar. Meu nome é Lucas Teixeira, tenho 19 anos e estou a caminho do segundo período de Análise e Desenvolvimento de Sistemas na Faculdade Senac/PE. Atualmente estou estudando HTML, CSS e Java Script, e esse projeto também serviu como um treino para tais ferramentas.
