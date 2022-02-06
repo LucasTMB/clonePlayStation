@@ -1,0 +1,80 @@
+@media screen and (max-width: 700px){
+    
+    /*Cabeçalho*/
+
+    header .sonybar{
+        justify-content: center;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .botao-preto{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*Jogo Principal*/
+
+
+
+    .jogo-principal{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*PlayStation 5*/
+
+
+    #conteudo-ps5 .ps-secundario button{
+        margin-bottom: 40px;
+    }
+
+    .ps-secundario{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*PS Store*/
+
+
+
+    .botao-ps-store{
+        margin-left: 45px;
+    }
+
+    /*PlayStation 4*/
+
+
+
+    #conteudo-ps4 .ps-primario{
+        text-align: center;
+    }
+
+    /*Promoções*/
+
+
+
+
+    #promocoes{
+        text-align: center;
+    }
+
+    .opcoes-promocao{
+        align-items: center;
+        display: block;
+    }
+
+    .redes-sociais-playstation{
+        display: block;
+        align-items: center;
+    }
+}

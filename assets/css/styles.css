@@ -1,0 +1,436 @@
+:root{
+    --branco: #fff;
+    --azul: #4169e1;
+    --laranja: #cd3d0f;
+    --preto: #363636;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*corpo*/
+
+
+
+
+body {
+    background: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*cabeçalho*/
+
+
+
+header{
+    width: 100%;
+}
+
+header .sonybar {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .sony{
+    padding: 10px;
+    padding-bottom: 5px;   
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .playstation-logo{
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;;
+    display: inline-flex;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--preto);
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+header nav a:hover{
+    color: var(--azul);
+}
+
+header .botao-preto{
+    padding: 7px;
+}
+
+
+/*Jogo em destaque*/
+
+
+
+
+.jogo-principal {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0.10)100%), url(../imagens/horizonfw-capa.jpg);
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .jogo-logo, .subtitulo-principal, .descricao-principal{
+    margin-bottom: 5%;
+    margin-left: 12%;
+}
+
+
+.jogo-principal .subtitulo-principal {
+    font-size: 25px;
+}
+
+.jogo-principal .descricao-principal {
+    margin-bottom: 50px;
+    width: 55%;
+}
+
+
+
+
+
+/*PlayStation 5*/
+
+
+
+
+#conteudo-ps5{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: var(--branco);
+}
+
+.ps-primario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.ps-primario h4{
+    color: var(--azul);
+    margin-bottom: 3px;
+}
+
+.ps-primario h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ps-primario p{
+    color: var(--preto);
+}
+
+.ps-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ps-secundario h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.ps-secundario p {
+    margin-bottom: 20px;
+    color: var(--preto);
+}
+
+
+/*carrossel de jogos*/
+
+
+
+
+#jogos{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.jogos-playstation{
+    color: var(--branco);
+
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0.10)100%), url(../imagens/godofwar-capa.jpg);
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogos-titulo, .jogos-descricao, .ps-store{
+    margin-left: 10%;
+}
+
+.ps-store{
+    margin-bottom: 50px;
+}
+
+.jogos-titulo{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.jogos-descricao{
+    margin-bottom: 40px;
+}
+
+.box-jogos{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.item h4, .item p{
+    color: var(--branco);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+/*PlayStation 4*/
+
+
+
+#conteudo-ps4{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: var(--branco);
+}
+
+#conteudo-ps4 p{
+    margin-bottom: 30px;
+}
+
+
+
+
+/*PS Plus*/
+
+
+
+
+#ps-plus{
+    background-color: #bbbbbb;
+}
+.psplus-logo, .ps-plus-descricao, .botao-plus{
+    margin-left: 10%;
+}
+
+.psplus-logo{
+    margin-bottom: 20px;
+}
+
+.ps-plus-descricao{
+    margin-bottom: 40px;
+    width: 75%;
+    color: var(--preto);
+}
+
+.anuncio-psplus{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/*Promoções*/
+
+
+
+
+#promocoes {
+    background-color: var(--branco);
+}
+
+.anuncio-promocao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.anuncio-promocao .titulo-promocao{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.anuncio-promocao .descricao-promocao{
+    font-size: 18px;
+    color: var(--preto);
+    width: 55%;
+    text-align: center;
+}
+
+.opcoes-promocao{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-promocao{
+    border-radius: 20px;
+}
+
+.titulo-redes-sociais{
+    font-size: 2em;
+    margin: 5%;
+    text-align: center;
+}
+
+.redes-sociais-playstation{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+
+
+
+/*Rodapé*/
+
+
+
+
+footer {
+    background-color: var(--azul);
+    color: var(--branco);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.rodape-secundario{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.rodape-item{
+    padding: 10px;
+}
+
+.rodape-secundario a{
+    color: var(--branco);
+}
+
+
+/*botões*/
+
+
+
+
+.botoes{
+    margin-left: 11%;
+}
+
+.botoes, .botao-laranja, .botao-branco, .botao-azul, .botao-preto, .botao-plus, .botao-ps-store{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao-laranja {
+    background-color: var(--laranja);
+    color: var(--branco);
+
+    margin-right: 10px;
+}
+
+.botao-laranja:hover{
+    background-color: #9b2f0b;
+}
+
+.botao-branco {
+    background-color: var(--branco);
+    color: black;
+}
+
+.botao-branco:hover{
+    background-color: rgb(146, 140, 140);
+}
+
+.botao-azul{
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+.botao-azul:hover{
+    background-color: #5aacf8;
+}
+
+.botao-ps-store{
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-left: 148px;
+}
+
+.botao-ps-store:hover{
+    background-color: #5aacf8;
+}
+
+.botao-preto{
+    background-color: var(--preto);
+    color: var(--branco);
+    margin-right: 5px;
+}
+
+.botao-plus {
+    background-color: rgba(220,222,224,.9);
+    color: var(--azul);
+}
+
+.botao-plus:hover{
+    background-color: var(--azul);
+    color: rgba(220,222,224,.9);
+}
